@@ -1,15 +1,86 @@
-# Weather API Documentação
+# 🌨️Weather API Documentação 🌦️
 
-## Problema
+## Problema 🏗️
 Encontramos várias dificuldades de achar dados de climas das cidades brasileiras, tanto para nós, desenvolvedores, quanto para pessoas que querem curtir um passeio no parque. E não consegue saber o clima da sua cidade ou até de outra cidade se está agradável ou quente demais.
 
-## Solução
+## Solução 💡
 Criamos uma API que fornece informações meteorológicas de algumas cidades, incluindo temperatura, umidade, velocidade do vento e UV, notificando ao usuário se essa cidade está em condições agradáveis para caminhar ou está em condições não agradáveis, de formas simples e objetivas.
 
-## Ferramentas Utilizadas
+## Ferramentas Utilizadas 🧰
 - **Node.js**: Para construir o backend da API.
-- **Express.js**: Framework para gerenciar rotas.
+- **Express.js (Vs.^5.1.0)**: Framework para gerenciar rotas.
 - **JavaScirpt [ESModules]**: Utilizado para construir todas as funcionalidades da API.
+- **Typescript**
+- **Nodemon (Vs.^3.1.10)**
+- **cors (Vs.^2.8.5)**
+- **Next (Vs.^15.3.5)**
+- **TailwindCSS (Vs.^4.1.11)**
+
+## Configuração 🛠️
+
+Para conseguir utilizar nossa aplicação voce dever seguir os seguintes passos:
+
+**1. Instalação dos pacotes:**
+Após fazerem a clonavem do repositorio, basta apenas utilzar o seguinte comando:
+
+```http
+	npm install
+```
+
+**OBS:** Caso acontença error na instalação dos pacotes, recomendo entrar diretamente na pastas desses pacotes.
+
+**Exemplo:**
+
+```http
+	cd ../weatherAPI/backend/
+```
+**OU**
+
+```http
+	cd ../weatherAPI/frontend/my-weather-api/
+```
+
+Após esse processo, faça `npm install` nas respectiva pastas.
+
+## Inicialização 🔌
+
+Pronto, após o processo de configuração será bem simples inicializar a Landing Page da API. Seguirá os seguintes passos:
+
+**1.Acessar a raiz da API e do NEXT**
+
+```http
+	cd ../weatherAPI/backend/
+
+	cd ../weatherAPI/frontend/my-weather-api/
+```
+
+**2.Inicializar o servido local tanto do NEXT e da API**
+
+```http
+	npm run start
+```
+Para inicializar a API, na pasta `../weatherAPI/backend/`.
+
+```http
+	npm run dev
+```
+Para inicializar o servidor NEXT, na pasta `../weatherAPI/frontend/my-weather-api/`.
+
+**OBS:** Caso ocorrar error, verifique todos os passos anteriores ou instalações do pacotes.
+
+## Resultado 🚀
+
+<div>
+	<img src="./img/image1.png">
+</div>
+
+<div>
+	<img src="./img/image2.png">
+</div>
+
+<div>
+	<img src="./img/image3.png">
+</div>
 
 ## Estrutura da API
 
