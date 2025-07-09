@@ -1,5 +1,6 @@
 import express from 'express'
 import city from './routes/clima.route.js';
+import cors from 'cors';
 
 const app = express()
 
@@ -7,6 +8,7 @@ const app = express()
 const PORT = 3000;
 
 app.use(express.json());
+app.use(cors());
 
 // ROTA GET NO "/"
 app.use("/", city);
